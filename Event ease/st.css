@@ -1,4 +1,4 @@
-h1{
+.heading{
     margin: 0px;
     font-size: 22px;
     padding-left: 40px;
@@ -10,9 +10,7 @@ h1{
     background-color: #FBFBFB;
     padding: 10px;
     overflow: scroll;
-    scrollbar-width: none;  
-    
-    
+    scrollbar-width: none;   
 }
 
 .gallery-to-look-for::-webkit-scrollbar{
@@ -55,7 +53,7 @@ h1{
     margin: 40px;
 }
 
-div button{
+.bottom-buttons{
     margin-top: 20px;
     background-color: #e72e77;
     border: none;
@@ -63,7 +61,7 @@ div button{
     padding: 0.5rem 0.2rem;
     color: white;
 }
-button:hover{
+.bottom-buttons:hover{
     background-color: #2075d7;
     transition: 0.7s;
     
@@ -92,14 +90,11 @@ button:hover{
    
 }
 
-html{
-    font-family: 'Roboto', sans-serif;
-}
 #app img{
     width: 169px;
     height: 50px;
 }
-ul li{
+#list li{
     list-style: none;
     padding: 0.4em;
     font-weight: 15px;
@@ -110,8 +105,4 @@ ul li{
     background-color: rgb(196, 184, 184);
     padding: 5px;
     justify-content: space-between;
-}
-body{
-    margin: 0px 0px 0px 0px;
-    
 }
