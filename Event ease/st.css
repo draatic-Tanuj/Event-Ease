@@ -1,0 +1,117 @@
+h1{
+    margin: 0px;
+    font-size: 22px;
+    padding-left: 40px;
+    
+}
+
+.gallery-to-look-for{
+    display: flex;
+    background-color: #FBFBFB;
+    padding: 10px;
+    overflow: scroll;
+    scrollbar-width: none;  
+    
+    
+}
+
+.gallery-to-look-for::-webkit-scrollbar{
+    display: none;
+}
+.gallery-to-look-for .img{
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.gallery-items img:hover ,.lb-items img:hover{
+   transform: scale(1.25) ;
+    transition: 0.9s ease;
+    
+}
+.gallery-items
+{
+    width: auto;
+    height: auto;
+    background-color: #fbfbfb;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-radius: 1em;
+}
+
+.gallery-items p{
+    text-align: center;
+  
+
+}
+
+.gallery-to-look-for :hover{
+    color: rgb(236, 82, 108);
+}
+
+
+.bottom-elements{
+    text-align: left;
+    margin: 40px;
+}
+
+div button{
+    margin-top: 20px;
+    background-color: #e72e77;
+    border: none;
+    border-radius: 2px;
+    padding: 0.5rem 0.2rem;
+    color: white;
+}
+button:hover{
+    background-color: #2075d7;
+    transition: 0.7s;
+    
+}
+.lb-items .img{
+
+    width: 100%;
+    
+}
+.lb-items {
+    color:black;
+    padding: 0.5em;
+}
+
+.lb-items h3:hover{
+    color: black;
+}
+.price{
+    color: #e72e77;
+    font-weight: bold;
+}
+
+.lb-items img{
+    height: 220px;
+    width: 390px;
+   
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+#app img{
+    width: 169px;
+    height: 50px;
+}
+ul li{
+    list-style: none;
+    padding: 0.4em;
+    font-weight: 15px;
+}
+#foot{
+    display: flex;
+    
+    background-color: rgb(196, 184, 184);
+    padding: 5px;
+    justify-content: space-between;
+}
+body{
+    margin: 0px 0px 0px 0px;
+    
+}
